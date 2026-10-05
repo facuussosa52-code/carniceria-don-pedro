@@ -41,11 +41,11 @@ export default function VeganoPage() {
                 <figcaption><strong>Medallones Veggies Ártico</strong><span>Morrón, zanahoria y cebolla</span></figcaption>
               </figure>
               <figure className="vegan-product">
-                <div className="vegan-product-image"><img src={withBasePath("/images/beyond-sausage.png")} alt="Paquete de salchichas veganas Beyond Sausage Original Brat" loading="lazy" /></div>
+                <div className="vegan-product-image"><img src={withBasePath("/images/beyond-sausage.webp")} alt="Paquete de salchichas veganas Beyond Sausage Original Brat" loading="lazy" /></div>
                 <figcaption><strong>Beyond Sausage Original</strong><span>Salchichas vegetales</span></figcaption>
               </figure>
               <figure className="vegan-product">
-                <div className="vegan-product-image"><img src={withBasePath("/images/beyond-mince.png")} alt="Paquete de carne picada vegetal Beyond Mince Original" loading="lazy" /></div>
+                <div className="vegan-product-image"><img src={withBasePath("/images/beyond-mince.webp")} alt="Paquete de carne picada vegetal Beyond Mince Original" loading="lazy" /></div>
                 <figcaption><strong>Beyond Mince Original</strong><span>Carne picada vegetal</span></figcaption>
               </figure>
             </div>
