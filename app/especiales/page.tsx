@@ -28,7 +28,7 @@ export default function EspecialesPage() {
         </div>
         <div className="special-gallery-grid" aria-label="Elaboraciones propias de Carnicería Don Pedro">
           <figure><img src={withBasePath("/images/especiales-rellenos.webp")} alt="Preparaciones de carne condimentadas y decoradas con morrón" loading="lazy" /></figure>
-          <figure><img src={withBasePath("/images/especiales-chorizos.webp")} alt="Elaboración de chorizos frescos en Carnicería Don Pedro" loading="lazy" /></figure>
+          <figure><img src={withBasePath("/images/especiales-chorizos-nuevo.webp")} alt="Elaboración artesanal de chorizos frescos en Carnicería Don Pedro" loading="lazy" /></figure>
         </div>
       </section>
 
