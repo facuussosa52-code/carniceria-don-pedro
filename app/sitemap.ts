@@ -5,7 +5,7 @@ export const dynamic = "force-static";
 const siteUrl = "https://carniceriadonpedro.com.uy";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const routes = ["", "/productos", "/especiales", "/vegano", "/calculadora", "/nosotros", "/contacto"];
+  const routes = ["", "/productos", "/elaboraciones", "/especiales", "/vegano", "/calculadora", "/nosotros", "/contacto"];
   const lastModified = new Date();
 
   return routes.map((route) => ({
