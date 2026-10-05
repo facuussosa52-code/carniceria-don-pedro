@@ -261,7 +261,7 @@ h1 em,h2 em { color:var(--wine); font-weight:500; }
 .section-kicker.light { color:#dca8a7; }
 .section-heading h2 { margin:0; max-width:720px; color:white; font-size:clamp(43px,5vw,72px); line-height:1.02; }
 .section-heading>p { max-width:330px; margin:0 0 8px; color:#cbbab1; line-height:1.7; }
-.product-grid { display:grid; grid-template-columns:repeat(3,1fr); border-top:1px solid rgba(243,234,219,.22); border-bottom:1px solid rgba(243,234,219,.22); }
+.product-grid { display:grid; grid-template-columns:repeat(2,1fr); border-top:1px solid rgba(243,234,219,.22); border-bottom:1px solid rgba(243,234,219,.22); }
 .product-card { min-height:620px; padding:38px clamp(25px,3.2vw,50px); }
 .product-card+.product-card { border-left:1px solid rgba(243,234,219,.22); }
 .product-photo { height:auto; aspect-ratio:4/5; margin:0 0 28px; overflow:hidden; background:#241a1b; }
