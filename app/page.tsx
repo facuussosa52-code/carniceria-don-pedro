@@ -71,7 +71,7 @@ export default function Home() {
 
       <nav className="quick-nav" aria-label="Accesos rápidos">
         <a href={withBasePath("/productos")}><span>01</span><div><strong>Carnes y cortes</strong><small>Frescos para cada ocasión</small></div><b aria-hidden="true">→</b></a>
-        <a href={withBasePath("/especiales")}><span>02</span><div><strong>Pedidos especiales</strong><small>Sin gluten y sin sal</small></div><b aria-hidden="true">→</b></a>
+        <a href={withBasePath("/elaboraciones")}><span>02</span><div><strong>Elaboraciones de la casa</strong><small>Chorizos, milanesas y rellenos</small></div><b aria-hidden="true">→</b></a>
         <a href="#opiniones"><span>03</span><div><strong>Opiniones</strong><small>La experiencia de nuestros clientes</small></div><b aria-hidden="true">↘</b></a>
         <a href={withBasePath("/contacto")}><span>04</span><div><strong>Visitanos</strong><small>Dirección, horarios y contacto</small></div><b aria-hidden="true">→</b></a>
       </nav>
