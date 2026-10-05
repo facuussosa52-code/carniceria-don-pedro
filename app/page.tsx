@@ -33,8 +33,7 @@ const reviews = [
 
 const products = [
   { number: "01", title: "Asado y cortes con hueso", description: "Cortes frescos seleccionados para la parrilla, el horno o una comida especial.", items: "Asado · Costilla · Cortes especiales", image: "/images/asado-nuevo.jpg", alt: "Asado fresco preparado en el mostrador de Carnicería Don Pedro" },
-  { number: "02", title: "Chorizos caseros", description: "Elaborados en el local, con distintas variedades para elegir según tu gusto.", items: "Mezcla · Cerdo · Morrón y queso", image: "/images/chorizo-mezcla.jpg", alt: "Chorizos de mezcla elaborados en Carnicería Don Pedro" },
-  { number: "03", title: "Elaboraciones de la casa", description: "Preparaciones armadas con dedicación para que las lleves listas para cocinar.", items: "Arrollados · Bondiolas · Rellenos", image: "/images/preparados-rellenos.jpg", alt: "Preparaciones rellenas y condimentadas elaboradas en Carnicería Don Pedro" },
+  { number: "02", title: "Cortes seleccionados", description: "Cortes elegidos por su calidad, sabor y presentación para una comida especial.", items: "Pulpas · Cortes con hueso · Consultá disponibilidad", image: "/images/corte-seleccionado-premium.webp", alt: "Corte vacuno seleccionado con hueso en Carnicería Don Pedro" },
 ];
 
 const hours = [
