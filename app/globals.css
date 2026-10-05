@@ -12,7 +12,7 @@ button,a { -webkit-tap-highlight-color:transparent; }
 .topbar { position:sticky; top:0; z-index:20; height:84px; padding:0 clamp(22px,5vw,78px); display:flex; align-items:center; justify-content:space-between; background:rgba(251,248,242,.94); border-bottom:1px solid var(--line); backdrop-filter:blur(12px); }
 .brand { display:flex; align-items:center; gap:12px; font-weight:850; letter-spacing:.08em; text-transform:uppercase; }
 .brand img { width:54px; height:50px; object-fit:cover; object-position:top; mix-blend-mode:multiply; }
-.topbar nav { display:flex; align-items:center; gap:clamp(14px,1.8vw,26px); font-size:13px; font-weight:650; }
+.topbar nav { display:flex; align-items:center; gap:clamp(10px,1.35vw,20px); font-size:12.5px; font-weight:650; }
 .topbar nav a { position:relative; }
 .topbar nav a::after { content:""; position:absolute; left:0; right:100%; bottom:-8px; height:2px; background:var(--wine); transition:.2s; }
 .topbar nav a:hover::after,.topbar nav a.active::after { right:0; }
@@ -168,6 +168,20 @@ h1 em,h2 em { color:var(--wine); font-weight:500; }
 .special-gallery-grid figure:nth-child(1) img { object-position:50% 50%; }
 .special-gallery-grid figure:nth-child(2) img { object-position:50% 45%; }
 .special-gallery-grid figure:hover img { transform:scale(1.025); }
+.house-catalog { padding:clamp(80px,9vw,130px) clamp(28px,7vw,110px); background:var(--cream); }
+.house-heading { display:grid; grid-template-columns:.55fr 1.45fr; gap:clamp(35px,6vw,90px); align-items:end; margin-bottom:52px; }
+.house-heading h2 { margin:0; font-size:clamp(43px,5vw,72px); line-height:1.02; }
+.house-heading>p { max-width:430px; margin:0 0 7px; color:var(--muted); font-size:16px; line-height:1.72; }
+.house-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:20px; }
+.house-card { min-width:0; padding:24px; background:var(--paper); border:1px solid var(--line); }
+.house-card figure { position:relative; aspect-ratio:4/5; margin:0 0 24px; overflow:hidden; background:#d8c7bb; }
+.house-card img { position:absolute; inset:0; width:100%; height:100%; display:block; object-fit:cover; transition:transform .4s ease; }
+.house-card:hover img { transform:scale(1.025); }
+.house-card h3 { margin:0 0 9px; font:500 clamp(28px,3vw,42px)/1.06 Georgia,serif; letter-spacing:-.03em; }
+.house-card p { margin:0; color:var(--muted); font-size:15px; line-height:1.65; }
+.house-card:nth-child(1) img { object-position:50% 48%; }
+.house-card:nth-child(2) img { object-position:50% 50%; }
+.house-card:nth-child(3) img,.house-card:nth-child(4) img { object-position:50% 44%; }
 .order-reminder { padding:clamp(70px,8vw,115px) clamp(28px,8vw,135px); display:grid; grid-template-columns:80px 1fr; gap:35px; align-items:start; background:var(--wine); color:#e5d4cd; }
 .order-reminder>span { width:64px; height:64px; display:grid; place-items:center; color:var(--wine); background:white; border-radius:50%; font-size:24px; }
 .order-reminder h2 { margin:0 0 18px; color:white; font-size:clamp(39px,4.5vw,64px); }
@@ -402,7 +416,7 @@ footer { padding:65px clamp(28px,7vw,110px) 25px; color:#d8c8bd; background:#211
   .quick-nav { grid-template-columns:repeat(2,1fr); }
   .quick-nav>a:nth-child(3) { border-left:0; border-top:1px solid var(--line); }
   .quick-nav>a:nth-child(4) { border-top:1px solid var(--line); }
-  .page-hero,.catalog-heading,.catalog-grid,.about-heading,.about-content,.value-proposition,.home-story,.service-flow,.history,.trust,.visit,.contact-strip,.special-orders-heading,.special-orders-grid,.special-gallery-heading,.review-grid { grid-template-columns:1fr; }
+  .page-hero,.catalog-heading,.catalog-grid,.about-heading,.about-content,.value-proposition,.home-story,.service-flow,.history,.trust,.visit,.contact-strip,.special-orders-heading,.special-orders-grid,.special-gallery-heading,.review-grid,.house-heading { grid-template-columns:1fr; }
   .page-hero { min-height:0; }
   .page-hero-side { min-height:280px; }
   .page-photo-side { min-height:460px; }
@@ -462,6 +476,9 @@ footer { padding:65px clamp(28px,7vw,110px) 25px; color:#d8c8bd; background:#211
   .vegan-product-image { height:270px; }
   .vegan-product-image img { max-height:250px; }
   .special-gallery { padding-left:22px; padding-right:22px; }
+  .house-catalog { padding-left:22px; padding-right:22px; }
+  .house-grid { grid-template-columns:1fr; }
+  .house-card { padding:18px; }
   .special-gallery-grid { grid-template-columns:1fr; }
   .special-gallery-grid figure,.special-gallery-large { min-height:0; aspect-ratio:4/5; grid-row:auto; }
   .review-card { min-height:260px; padding:28px 24px; }
