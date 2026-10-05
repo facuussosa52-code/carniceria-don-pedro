@@ -19,11 +19,12 @@ export const mapsUrl = "https://maps.app.goo.gl/PDBjZ9HrrVPdx9uJ8";
 export const facebookUrl = "https://www.facebook.com/carniceria.don.pedro.2024/";
 export const instagramUrl = "https://www.instagram.com/ddonpedroo/";
 
-type PageName = "inicio" | "productos" | "calculadora" | "especiales" | "vegano" | "nosotros" | "contacto";
+type PageName = "inicio" | "productos" | "elaboraciones" | "calculadora" | "especiales" | "vegano" | "nosotros" | "contacto";
 
 const navigation: { key: PageName; label: string; href: string }[] = [
   { key: "inicio", label: "Inicio", href: "/" },
   { key: "productos", label: "Productos", href: "/productos" },
+  { key: "elaboraciones", label: "Elaboraciones", href: "/elaboraciones" },
   { key: "especiales", label: "Opciones", href: "/especiales" },
   { key: "vegano", label: "Opciones veggie", href: "/vegano" },
   { key: "calculadora", label: "Calculadora", href: "/calculadora" },
