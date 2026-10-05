@@ -21,16 +21,6 @@ export default function EspecialesPage() {
         <div className="page-hero-side special-side"><span>Por encargo</span><strong>Decinos qué<br />necesitás</strong><p>Te asesoramos y coordinamos cada detalle de tu preparación.</p></div>
       </section>
 
-      <section className="special-gallery">
-        <div className="special-gallery-heading">
-          <p className="section-kicker">Elaboración propia</p>
-          <h2>Preparados con dedicación,<br /><em>listos para tu mesa.</em></h2>
-        </div>
-        <div className="special-gallery-grid" aria-label="Elaboraciones propias de Carnicería Don Pedro">
-          <figure><img src={withBasePath("/images/especiales-chorizos-nuevo.webp")} alt="Elaboración artesanal de chorizos frescos en Carnicería Don Pedro" loading="lazy" /></figure>
-          <figure><img src={withBasePath("/images/especiales-milanesas.webp")} alt="Milanesas artesanales empanadas y listas para cocinar" loading="lazy" /></figure>
-        </div>
-      </section>
 
       <section className="special-orders special-orders-page">
         <div className="special-orders-grid">
