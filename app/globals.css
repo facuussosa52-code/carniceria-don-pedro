@@ -282,8 +282,8 @@ h1 em,h2 em { color:var(--wine); font-weight:500; }
 .vegan-card-copy .button { align-self:flex-start; margin-top:auto; }
 .vegan-products { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px; align-items:stretch; }
 .vegan-product { min-width:0; margin:0; padding:24px; display:flex; flex-direction:column; background:rgba(255,255,255,.7); border:1px solid rgba(79,90,56,.2); }
-.vegan-product-image { min-height:310px; display:grid; place-items:center; overflow:hidden; }
-.vegan-product-image img { width:100%; height:310px; display:block; object-fit:contain; }
+.vegan-product-image { height:310px; display:flex; align-items:center; justify-content:center; overflow:visible; }
+.vegan-product-image img { width:auto; max-width:100%; height:auto; max-height:290px; display:block; object-fit:contain; }
 .vegan-product figcaption { margin-top:auto; padding-top:20px; border-top:1px solid rgba(79,90,56,.18); }
 .vegan-product figcaption strong,.vegan-product figcaption span { display:block; }
 .vegan-product figcaption strong { margin-bottom:6px; font:500 clamp(18px,1.65vw,22px)/1.15 Georgia,serif; }
@@ -459,7 +459,7 @@ footer { padding:65px clamp(28px,7vw,110px) 25px; color:#d8c8bd; background:#211
   .diet-card { min-height:0; padding:30px 24px; }
   .diet-card .button { width:100%; padding-inline:16px; }
   .vegan-products { grid-template-columns:1fr; }
-  .vegan-product-image { min-height:250px; }
+  .vegan-product-image { height:270px; }
   .vegan-product-image img { max-height:250px; }
   .special-gallery { padding-left:22px; padding-right:22px; }
   .special-gallery-grid { grid-template-columns:1fr; }
