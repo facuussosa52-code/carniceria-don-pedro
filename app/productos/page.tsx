@@ -13,6 +13,7 @@ const categories = [
   { number: "03", title: "Achuras frescas", copy: "Los clásicos que completan cualquier parrillada, siempre frescos.", items: "Mollejas · Chinchulines · Riñones · Chotos · Morcillas y más", image: "/images/variedad-mostrador.jpg", alt: "Variedad de achuras frescas en el mostrador" },
   { number: "04", title: "Cortes de cerdo", copy: "Cortes frescos y seleccionados para preparar al horno, a la parrilla o en la olla.", items: "Consultá cortes y disponibilidad", image: "/images/cortes-de-cerdo.webp", alt: "Cortes frescos de cerdo en el mostrador de Carnicería Don Pedro" },
   { number: "05", title: "Cortes especiales por encargo", copy: "Si buscás un corte especial, escribinos con anticipación. Podemos conseguirlo y tenerlo pronto para vos.", items: "Pedido anticipado · Consultá disponibilidad", image: "/images/cortes-especiales-encargo.jpg", alt: "Corte vacuno especial disponible por encargo en Don Pedro" },
+  { number: "06", title: "Vacío, entraña y más", copy: "Cortes sabrosos y versátiles, ideales para disfrutar a la parrilla o preparar como más te guste.", items: "Vacío · Entraña · Consultá disponibilidad", image: "/images/vacio-entrana-y-mas.webp", alt: "Vacío, entraña y otros cortes vacunos frescos en Carnicería Don Pedro" },
 ];
 
 export default function ProductosPage() {
