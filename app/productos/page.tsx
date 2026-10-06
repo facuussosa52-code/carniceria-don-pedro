@@ -7,6 +7,7 @@ export const metadata = {
   alternates: { canonical: "/productos" },
 };
 
+// Product categories are kept in display order for the catalog grid.
 const categories = [
   { number: "01", title: "Cortes para la parrilla", copy: "Todo para preparar un buen asado y compartir en familia o con amigos.", items: "Asado · Vacío · Colita de cuadril", image: "/images/asado-nuevo.jpg", alt: "Asado fresco preparado en Carnicería Don Pedro" },
   { number: "02", title: "Cortes seleccionados", copy: "Opciones con hueso y pulpas para horno, plancha, olla o una comida especial.", items: "Pulpas · Cortes con hueso · Y más", image: "/images/cortes-seleccionados-nuevos.jpg", alt: "Cortes vacunos seleccionados en el mostrador de Don Pedro" },
