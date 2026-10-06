@@ -89,11 +89,6 @@ export default function Home() {
             </article>
           ))}
         </div>
-        <div className="special-note">
-          <span className="special-icon" aria-hidden="true">✦</span>
-          <div><strong>También pensamos en vos</strong><p>Preparamos opciones sin gluten y sin sal por encargo, y ya contamos con hamburguesas y medallones veganos.</p></div>
-          <a href={withBasePath("/especiales")}>Ver opciones <span>→</span></a>
-        </div>
       </section>
 
       <section className="home-story" id="nosotros">
@@ -132,7 +127,7 @@ export default function Home() {
           <article><span aria-hidden="true">✓</span><div><h3>Comercio responsable</h3><p>Compromiso con el orden, el cuidado y una atención clara.</p></div></article>
           <article><span aria-hidden="true">✓</span><div><h3>Cuidado e higiene</h3><p>Buenas prácticas en la preparación y conservación de los productos.</p></div></article>
           <figure className="permit-qr-card">
-            <img src={withBasePath("/images/habilitacion-inac-69513f.png")} alt="Código QR oficial de la habilitación INAC 69513F de Carnicería Don Pedro" loading="lazy" />
+            <img src={withBasePath("/images/habilitacion-inac-69513f.webp")} alt="Código QR oficial de la habilitación INAC 69513F de Carnicería Don Pedro" />
             <figcaption><h3>Habilitación de INAC</h3><p>Escaneá este QR con la cámara de tu celular para comprobarla directamente. No necesitás usuario ni contraseña.</p><strong>Código 69513F</strong></figcaption>
           </figure>
         </div>
