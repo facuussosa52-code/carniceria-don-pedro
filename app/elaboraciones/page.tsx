@@ -21,10 +21,10 @@ const elaboraciones = [
     alt: "Milanesas artesanales empanadas y listas para cocinar",
   },
   {
-    title: "Arrollados caseros",
-    copy: "Preparaciones sabrosas y prácticas, armadas en el local para compartir en tu mesa.",
-    image: "/images/arrollado-casero.webp",
-    alt: "Arrollado casero elaborado en Carnicería Don Pedro",
+    title: "Arrollados de pollo",
+    copy: "Pollos rellenos y condimentados, preparados en el local para cocinar y compartir.",
+    image: "/images/arrollados-de-pollo.webp",
+    alt: "Arrollados de pollo rellenos y condimentados preparados en Carnicería Don Pedro",
   },
   {
     title: "Rellenos y preparaciones",
