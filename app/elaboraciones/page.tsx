@@ -10,7 +10,7 @@ export const metadata = {
 const elaboraciones = [
   {
     title: "Chorizos caseros",
-    copy: "Elaborados en el local en distintas variedades para disfrutar a la parrilla o en tus comidas.",
+    copy: "Elaborados en el local: de mezcla, con morrón y queso, o puro cerdo al vino blanco.",
     image: "/images/especiales-chorizos-nuevo.webp",
     alt: "Elaboración artesanal de chorizos frescos en Carnicería Don Pedro",
   },
