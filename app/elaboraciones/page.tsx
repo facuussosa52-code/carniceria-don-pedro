@@ -52,7 +52,6 @@ export default function ElaboracionesPage() {
       <section className="house-catalog">
         <div className="house-heading">
           <div><p className="section-kicker">Nuestras preparaciones</p><h2>Listas para cocinar<br /><em>y compartir.</em></h2></div>
-          <p>La disponibilidad puede variar. Escribinos y te contamos qué elaboraciones tenemos prontas o cuáles podés encargar.</p>
         </div>
         <div className="house-grid">
           {elaboraciones.map((item) => (
