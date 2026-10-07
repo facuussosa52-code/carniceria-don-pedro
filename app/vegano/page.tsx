@@ -11,13 +11,14 @@ export default function VeganoPage() {
   return (
     <main>
       <SiteHeader active="vegano" />
-      <section className="page-hero page-hero-light page-hero-single">
+      <section className="page-hero page-hero-light">
         <div>
           <p className="breadcrumb"><a href={withBasePath("/")}>Inicio</a><span>/</span>Línea veggie</p>
           <p className="section-kicker">Alternativas vegetales</p>
           <h1>Nuestras opciones<br /><em>veggie.</em></h1>
           <p>Una selección de productos vegetales de calidad para sumar nuevas opciones a tu mesa. Consultanos por disponibilidad y te ayudamos con tu pedido.</p>
         </div>
+        <div className="page-hero-side special-side"><span>Te escuchamos</span><strong>¿Buscás otra<br />opción veggie?</strong><p>Contanos qué producto te gustaría encontrar y evaluamos incorporarlo a nuestra línea.</p></div>
       </section>
 
       <section className="special-orders special-orders-page">
