@@ -2,8 +2,8 @@ import { SiteFooter, SiteHeader, veganOptionsUrl } from "../site-components";
 import { withBasePath } from "../base-path";
 
 export const metadata = {
-  title: "Opciones veggie | Carnicería Don Pedro",
-  description: "Hamburguesas, medallones, salchichas y carne picada vegetal disponibles entre las opciones veggie de Carnicería Don Pedro.",
+  title: "Línea veggie | Carnicería Don Pedro",
+  description: "Hamburguesas, medallones, salchichas y carne picada vegetal disponibles en la línea veggie de Carnicería Don Pedro.",
   alternates: { canonical: "/vegano" },
 };
 
@@ -13,7 +13,7 @@ export default function VeganoPage() {
       <SiteHeader active="vegano" />
       <section className="page-hero page-hero-light">
         <div>
-          <p className="breadcrumb"><a href={withBasePath("/")}>Inicio</a><span>/</span>Opciones veggie</p>
+          <p className="breadcrumb"><a href={withBasePath("/")}>Inicio</a><span>/</span>Línea veggie</p>
           <p className="section-kicker">Alternativas vegetales</p>
           <h1>Nuestras opciones<br /><em>veggie.</em></h1>
           <p>Una selección de productos vegetales de calidad para sumar nuevas opciones a tu mesa. Consultanos por disponibilidad y te ayudamos con tu pedido.</p>
@@ -26,7 +26,7 @@ export default function VeganoPage() {
           <article className="diet-card vegan-card">
             <div className="vegan-card-copy">
               <div className="diet-card-top"><span className="diet-symbol">V</span><span className="order-badge">Disponible</span></div>
-              <p className="diet-kicker">Opciones veggie</p><h3>Alternativas para todos los gustos</h3>
+              <p className="diet-kicker">Línea veggie</p><h3>Alternativas para todos los gustos</h3>
               <p className="diet-copy">Productos vegetales seleccionados para ofrecerte alternativas prácticas, sabrosas y fáciles de preparar.</p>
               <div className="diet-items"><span>Hamburguesas veganas</span><span>Medallones vegetales</span><span>Salchichas veganas</span><span>Carne picada vegetal</span></div>
               <a className="button" href={veganOptionsUrl}>Consultar por WhatsApp <span aria-hidden="true">↗</span></a>
