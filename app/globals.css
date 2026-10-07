@@ -78,7 +78,6 @@ h1 em,h2 em { color:var(--wine); font-weight:500; }
 .page-hero-light>div:first-child>p:not(.breadcrumb,.section-kicker) { color:var(--muted); }
 .page-hero-light .breadcrumb { color:var(--muted); }
 .page-hero-light .breadcrumb a { color:var(--wine); }
-.page-hero-single { grid-template-columns:1fr; }
 .special-side { background:var(--wine-dark); }
 
 .catalog { padding:clamp(80px,9vw,130px) clamp(28px,7vw,110px); background:var(--cream); }
