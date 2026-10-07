@@ -26,7 +26,7 @@ const navigation: { key: PageName; label: string; href: string }[] = [
   { key: "productos", label: "Productos", href: "/productos" },
   { key: "elaboraciones", label: "Elaboraciones", href: "/elaboraciones" },
   { key: "especiales", label: "Opciones", href: "/especiales" },
-  { key: "vegano", label: "Opciones veggie", href: "/vegano" },
+  { key: "vegano", label: "Línea veggie", href: "/vegano" },
   { key: "calculadora", label: "Calculadora", href: "/calculadora" },
   { key: "nosotros", label: "Nosotros", href: "/nosotros" },
   { key: "contacto", label: "Contacto", href: "/contacto" },
